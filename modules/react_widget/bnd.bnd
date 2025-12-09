@@ -1,0 +1,8 @@
+Bundle-Name: react_widget
+Bundle-SymbolicName: react_widget
+Bundle-Version: 1.0.3
+Export-Package: react_widget.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
+Web-ContextPath: /react_widget

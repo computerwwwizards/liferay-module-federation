@@ -1,0 +1,4 @@
+.env
+.npmrc
+squid.dev.conf
+liferay-modules/*jar

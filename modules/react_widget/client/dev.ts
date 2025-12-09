@@ -1,0 +1,1 @@
+import('./bootstrap').then(({init})=>init('root'))
