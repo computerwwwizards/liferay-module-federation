@@ -1,7 +1,8 @@
-// Configure npm script to use rsbuild instead of esbuild
-packageRunBuild {
-	scriptName = "build:r"
-}
+// Using default esbuild for now to test basic OSGi registration
+// TODO: Switch to rsbuild once registration is verified
+// packageRunBuild {
+// 	scriptName = "build:r"
+// }
 
 dependencies {
 		compileOnly group: "com.liferay.portal", name: "release.portal.api"
