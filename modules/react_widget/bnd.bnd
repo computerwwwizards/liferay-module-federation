@@ -2,6 +2,9 @@ Bundle-Name: react_widget
 Bundle-SymbolicName: react_widget
 Bundle-Version: 1.0.3
 Export-Package: react_widget.constants
+Import-Package: \
+	javax.portlet;version="[2.0,3)",\
+	*
 Provide-Capability:\
 	liferay.language.resources;\
 		resource.bundle.base.name="content.Language"
