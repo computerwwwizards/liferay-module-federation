@@ -1,0 +1,8 @@
+Bundle-Name: reactBase
+Bundle-SymbolicName: reactbase
+Bundle-Version: 1.0.0
+Export-Package: reactbase.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
+Web-ContextPath: /reactBase

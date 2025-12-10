@@ -118,5 +118,6 @@ function calculateWinner(squares) {
 }
 
 export default function(elementId) {
+	console.log(5)
 	ReactDOM.render(<Game />, document.getElementById(elementId));
 }

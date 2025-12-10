@@ -1,0 +1,17 @@
+
+{
+	"dependencies": {
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"@module-federation/enhanced": "^0.21.6"
+	},
+	"devDependencies": {
+		"esbuild": "^0.20.2"
+	},
+	"main": "js/index.js",
+	"name": "reactBase",
+	"scripts": {
+				"build": "echo 'hiii' && esbuild ./src/main/resources/META-INF/resources/js/index.js --bundle --outfile=./build/resources/main/META-INF/resources/js/index.js --loader:.js=jsx --format=esm --tree-shaking=true --minify"
+			},
+	"version": "1.0.0"
+}
